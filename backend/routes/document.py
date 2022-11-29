@@ -22,7 +22,7 @@ def find_document():
     return 'helloworld'
 
 @document_router.put('/document/{id}')
-def change_document():
+def update_document():
     return 'helloworld'
 
 @document_router.delete('/document/{id}')
