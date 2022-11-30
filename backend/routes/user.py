@@ -8,11 +8,11 @@ from starlette.status import HTTP_204_NO_CONTENT
 
 user_router = APIRouter()
 
-@user_router.get('/user', response_model=list[User], tags=["Usuarios"])
+@user_router.get('/api/user', response_model=list[User], tags=["Usuarios"])
 def find_all_user():
     return usersEntity(client.Misiontic.User.find()) 
 
-@user_router.post('/user', response_model=User, tags=["Usuarios"])
+@user_router.post('/api/user', response_model=User, tags=["Usuarios"])
 def create_user(user: User):
     new_user = dict(user)
     new_user['password'] = sha256_crypt.encrypt(new_user['password'])
@@ -22,11 +22,11 @@ def create_user(user: User):
 
     return userEntity(selected_user)
 
-@user_router.get('/user/{id}', response_model=User, tags=["Usuarios"])
+@user_router.get('/api/user/{id}', response_model=User, tags=["Usuarios"])
 def find_user(id: str):
     return userEntity(client.Misiontic.User.find_one({"_id": ObjectId(id)}))
 
-@user_router.put('/user/{id}', response_model=User, tags=["Usuarios"])
+@user_router.put('/api/user/{id}', response_model=User, tags=["Usuarios"])
 def update_user(id: str, user: User):
     new_user = dict(user)
     new_user['password'] = sha256_crypt.encrypt(new_user['password'])
@@ -36,7 +36,7 @@ def update_user(id: str, user: User):
     
     return userEntity(updated_user)
 
-@user_router.delete('/user/{id}', status_code=status.HTTP_204_NO_CONTENT, tags=["Usuarios"])
+@user_router.delete('/api/user/{id}', status_code=status.HTTP_204_NO_CONTENT, tags=["Usuarios"])
 def delete_user(id: str):
     userEntity(client.Misiontic.User.find_one_and_delete({"_id": ObjectId(id)}))
     return Response(status_code=HTTP_204_NO_CONTENT)
