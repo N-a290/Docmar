@@ -9,13 +9,13 @@
   
   .main-header {
     position: relative;
-    background: url(../img/background.jpg);
+    background: url(../img/background.jpeg);
     background-size: cover;
-    min-height: 600px;
+    min-height: 700px;
   }
   
   .background-overlay {
-    background: rgba(48, 51, 107,.7);
+    background: rgba(48, 51, 107,.1);
     top: 0;
     left: 0;
     width: 100%;
