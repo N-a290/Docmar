@@ -11,7 +11,7 @@
     position: relative;
     background: url(../img/background.jpg);
     background-size: cover;
-    min-height: 700px;
+    min-height: 600px;
   }
   
   .background-overlay {
