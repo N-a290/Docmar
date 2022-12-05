@@ -1,9 +1,10 @@
 def documentEntity(item) -> dict:
     return {
-        "name": item["name"],
+        "title": item["title"],
         "type": item["type"],
         "category": item["category"],
-        "stock": item["stock"]
+        "summary": item["summary"],
+        "cover": item["cover"]
     }
 
 def documentsEntity(entity) -> list:

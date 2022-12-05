@@ -27,6 +27,7 @@
                 Documentos
               </a>
               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Libros</a></li>
                 <li><a class="dropdown-item" href="#">Revistas</a></li>
                 <li><a class="dropdown-item" href="#">Iconográficos</a></li>
                 <li><a class="dropdown-item" href="#">Monografías</a></li>

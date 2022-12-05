@@ -8,10 +8,12 @@ from starlette.status import HTTP_204_NO_CONTENT
 
 user_router = APIRouter()
 
+# Obtener todos los elementos
 @user_router.get('/api/user', response_model=list[User], tags=["Usuarios"])
 def find_all_user():
     return usersEntity(client.Misiontic.User.find()) 
 
+# Ingresar un nuevo usuario
 @user_router.post('/api/user', response_model=User, tags=["Usuarios"])
 def create_user(user: User):
     new_user = dict(user)
@@ -22,10 +24,12 @@ def create_user(user: User):
 
     return userEntity(selected_user)
 
+# Obtener un usuario por su id
 @user_router.get('/api/user/{id}', response_model=User, tags=["Usuarios"])
 def find_user(id: str):
     return userEntity(client.Misiontic.User.find_one({"_id": ObjectId(id)}))
 
+# Editar o cambiar un usuario
 @user_router.put('/api/user/{id}', response_model=User, tags=["Usuarios"])
 def update_user(id: str, user: User):
     new_user = dict(user)
@@ -36,6 +40,7 @@ def update_user(id: str, user: User):
     
     return userEntity(updated_user)
 
+# Eliminar un usuario
 @user_router.delete('/api/user/{id}', status_code=status.HTTP_204_NO_CONTENT, tags=["Usuarios"])
 def delete_user(id: str):
     userEntity(client.Misiontic.User.find_one_and_delete({"_id": ObjectId(id)}))

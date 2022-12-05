@@ -2,7 +2,8 @@ from pydantic import BaseModel
 from typing import Optional
 
 class Document(BaseModel):
-    name: str
+    title: str
     type: str
     category: list[str]
-    stock: int 
+    summary: str
+    cover: str
