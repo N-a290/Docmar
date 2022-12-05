@@ -5,7 +5,7 @@
   <div>
 
     <!-- NAVEGACION -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img src="./assets/library-icon.svg" alt="library-icon" width="40" height="30"
@@ -40,7 +40,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link active" to="/">Registarse | Ingresar</router-link>
+              <router-link class="nav-link active" to="/login">Registarse | Ingresar</router-link>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -73,6 +73,7 @@
 .navbar {
   box-shadow: 2px 2px 5px #000;
   opacity: 0.9;
+  z-index: 10;
 }
 
 footer {
