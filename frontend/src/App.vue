@@ -61,7 +61,7 @@
       <div class="container p-3">
         <div class="row text-center text-white">
           <div class="col ml-auto">
-            <p>Hecho con Vue | 2022</p>
+            <p>Hecho con Vue y FastAPI | 2022</p>
           </div>
         </div>
       </div>

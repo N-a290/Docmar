@@ -2,16 +2,16 @@
 
     
     <!-- ACCORDION -->
-    <section class="container text-center p-5">
-        <div class="text-align-center mb-2">
+    <section class="container p-5">
+        <div class="text-center mb-2">
             <h1>Acerca de Nosotros</h1>
         </div>
         <div class="row">
             <div class="accordion" id="accordionExample">
                 <div class="card">
                     <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        <h5 class="mb-0 text-center">
+                            <button class="btn btn-link text-black" type="button" data-toggle="collapse" data-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
                                 ¿Preguntas frecuentes?
                             </button>
@@ -21,7 +21,33 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                         data-parent="#accordionExample">
                         <div class="card-body">
-                            -Gestiona tus documentos, Seguro, Confiable, Menor tiempo.
+                            <ul>
+                                <li>
+                                    Docmar es un nuevo portal en Internet que da acceso a todo un universo literario. El catálogo de libros de Docmar organiza por temáticas los títulos publicados por nuestras editoriales afiliadas. En Docmar cada una de estas editoriales mantiene una personalidad propia y el conjunto constituye la más amplia y variada propuesta editorial del mercado
+                                </li>
+                                <li>
+                                    Gestiona tus documentos, Seguro, Confiable, Menor tiempo.
+                                </li>
+                                <li>
+                                    Estar registrado tiene una amplia oferta de beneficios, entre los que se encuentran: 
+                                </li>
+                                <ul>
+                                    <li>
+                                        Comentar y votar los libros
+                                    </li>
+                                    <li>
+                                        Acceder a las alarmas de autores
+                                    </li>
+                                    <li>
+                                        Participar en foros, blogs y encuentros con autores
+                                    </li>
+                                    <li>
+                                        Recibir las newsletters con todas las novedades
+                                    </li>
+                                </ul>
+                            </ul>
+
+
                         </div>
                     </div>
                 </div>
@@ -32,8 +58,8 @@
     <!-- TEAM -->
     <section class="text-center team">
         <div class="container p-5">
-            <h1 class="text-center text-white">Equipo</h1>
-            <p class="text-white">
+            <h1 class="text-center display-4">Equipo</h1>
+            <p class="m-3">
                 Creadores del aplicativo web DOCMAR - Gestion Documental.
             </p>
             <div class="row">

@@ -57,23 +57,23 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 
 export default {
     name: 'search',
-    data() {
-        return {
-            data: []
-        }
-    },
-    mounted(){
-        this.getData()
-    },
-    methods: {
-        getData(){
+    // data() {
+    //     return {
+    //         data: []
+    //     }
+    // },
+    // mounted(){
+    //     this.getData()
+    // },
+    // methods: {
+    //     getData(){
 
-        }
-    }
+    //     }
+    // }
 }
 </script>
 

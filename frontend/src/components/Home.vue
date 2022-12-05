@@ -7,10 +7,10 @@
                 <div class="row d-flex h-100">
                     <div class="col-sm-6 text-center justify-content-center align-self-center">
                         <h1>
-                            El principito
+                            Bienvenido
                         </h1>
-                        <p>Encontraras muchos libros y muchos mas documentos.</p>
-                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                        <p>Docmar.com es un punto de encuentro entre autores y lectores en el que tu participación es una pieza muy importante.</p>
+                        <a href="/contact" class="btn btn-outline-secondary btn-lg text-white">
                             Leer mas
                         </a>
                     </div>
@@ -25,6 +25,7 @@
     <!-- NEWSLETTER  -->
     <section id="newsletter" class="bg-dark text-white py-5">
         <div class="container">
+            <h2>Suscríbase para estar al tanto de nuestras ofertas</h2>
             <div class="row">
                 <div class="col-md-4">
                     <input type="text" class="form-control form-control-lg" placeholder="Introduzca su nombre">
@@ -49,9 +50,9 @@
                 <div class="col-md-3">
                     <div class="card text-center border-success">
                         <div class="card-body">
-                            <h3>Caracteristica 1</h3>
+                            <h3>Fácil de usar</h3>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum?
+                                Si recibiste un producto defectuoso o no era el acordado, nunca perderás tu dinero. Te acompañamos hasta que estés conforme con lo que compraste.
                             </p>
                         </div>
                     </div>
@@ -59,9 +60,9 @@
                 <div class="col-md-3">
                     <div class="card text-white bg-success">
                         <div class="card-body">
-                            <h3>Caracteristica 2</h3>
+                            <h3>Seguro</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, eaque.
+                                Todas tus compras están fuertemente aseguradas, y nuestro servicio al cliente siempre está dispuesto a solucionara cualquier duda que se te presente
                             </p>
                         </div>
                     </div>
@@ -69,9 +70,9 @@
                 <div class="col-md-3">
                     <div class="card text-center border-success">
                         <div class="card-body">
-                            <h3>Caracteristica 3</h3>
+                            <h3>Rapidez</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, incidunt?
+                                Tus pedidos serán entregados con agilidad y rapidez, realizamos entregas por toda Colombia
                             </p>
                         </div>
                     </div>
@@ -79,9 +80,9 @@
                 <div class="col-md-3">
                     <div class="card text-center border-success">
                         <div class="card-body">
-                            <h3>Caracteristica 4</h3>
+                            <h3>Paga con tarjeta o con efectivo</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, laborum.
+                                Paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con efectivo en puntos de pago. ¡Y siempre es seguro!
                             </p>
                         </div>
                     </div>
@@ -91,14 +92,13 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="m5 text-center bg-light">
+    <section class=" text-center bg-light">
         <div class="container">
             <div class="row">
                 <div class="m-5">
-                    <h3 class="text-center">¿Por qué este producto?</h3>
+                    <h3 class="">¿Nuestra misión?</h3>
                     <p>
-                        El principito es una novela corta y la obra más famosa del escritor y aviador francés Antoine de
-                        Saint-Exupéry.
+                        Utilizar el poder de la tecnología emergente para hacer que todos los documentos sean más accesibles y baratos para todos, de modo que un día todas las personas del mundo tengan fácil acceso al mundo literario y académico.
                     </p>
                 </div>
             </div>
